@@ -84,4 +84,5 @@ public class SeleniumCommands {
     public void verifyLogin(){
         System.out.println("hi");
     }
+
 }
