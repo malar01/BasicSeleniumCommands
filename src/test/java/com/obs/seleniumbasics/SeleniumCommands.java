@@ -80,4 +80,12 @@ public class SeleniumCommands {
         driver.get("https://demo.guru99.com/test/upload/");
         driver.findElement(By.xpath("//input[@id='uploadfile_0']")).sendKeys("F:\\Automation-Testing\\Sample_File.txt");
     }
+    @Test
+    public void verifyLogin(){
+        System.out.println("hi");
+    }
+    @Test
+    public void verifySearch(){
+        System.out.println("hi");
+}
 }
