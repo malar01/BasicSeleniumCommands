@@ -41,7 +41,7 @@ public class SeleniumCommands {
     }
     @BeforeMethod
     public void setup() {
-        testInitialize("firefox","http://demowebshop.tricentis.com/");
+        testInitialize("chrome","http://demowebshop.tricentis.com/");
     }
     @AfterMethod
     public void tearDown() {
@@ -79,5 +79,9 @@ public class SeleniumCommands {
     public void verifyFileUpload() {
         driver.get("https://demo.guru99.com/test/upload/");
         driver.findElement(By.xpath("//input[@id='uploadfile_0']")).sendKeys("F:\\Automation-Testing\\Sample_File.txt");
+    }
+    @Test
+    public void verifyLogin(){
+        System.out.println("hi");
     }
 }
